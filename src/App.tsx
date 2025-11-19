@@ -3,8 +3,17 @@ import { PreviousSearches } from './gifs/components/PreviousSearches';
 import { CustomHeader } from './shared/components/CustomHeader';
 import { SearchBar } from './shared/components/SearchBar';
 import { mockGifs } from './mock/gifs.mock';
+import { useState } from 'react';
+
+const previousSearches = ['Absolute cinema', 'This is fine', 'Snoopy'];
 
 export const App = () => {
+  const [previousTerms, setPreviousTerms] = useState(previousSearches);
+
+  const handleTermClicked = (term: string) => {
+    console.log(term);
+  };
+
   return (
     <>
       <CustomHeader
@@ -13,7 +22,8 @@ export const App = () => {
       />
       <SearchBar placeholder="Search a gif" />
       <PreviousSearches
-        searches={['Absolute cinema', 'This is fine', 'Snoopy']}
+        searches={previousTerms}
+        onLabelClicked={handleTermClicked}
       />
       <GifList gifs={mockGifs} />
     </>
