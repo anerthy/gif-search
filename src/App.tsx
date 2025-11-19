@@ -5,13 +5,15 @@ import { SearchBar } from './shared/components/SearchBar';
 import { mockGifs } from './mock/gifs.mock';
 import { useState } from 'react';
 
-const previousSearches = ['Absolute cinema', 'This is fine', 'Snoopy'];
-
 export const App = () => {
-  const [previousTerms, setPreviousTerms] = useState(previousSearches);
+  const [previousTerms, setPreviousTerms] = useState(['Absolute cinema']);
 
   const handleTermClicked = (term: string) => {
     console.log(term);
+  };
+
+  const handleSearch = (query: string) => {
+    setPreviousTerms((prevTerms) => [...prevTerms, query]);
   };
 
   return (
@@ -20,7 +22,7 @@ export const App = () => {
         title="Gif Search"
         description="Search for your favorite gifs"
       />
-      <SearchBar placeholder="Search a gif" />
+      <SearchBar placeholder="Search a gif" onQuery={handleSearch} />
       <PreviousSearches
         searches={previousTerms}
         onLabelClicked={handleTermClicked}
