@@ -6,14 +6,18 @@ import { mockGifs } from './mock/gifs.mock';
 import { useState } from 'react';
 
 export const App = () => {
-  const [previousTerms, setPreviousTerms] = useState(['Absolute cinema']);
+  const [previousTerms, setPreviousTerms] = useState<string[]>([]);
 
   const handleTermClicked = (term: string) => {
     console.log(term);
   };
 
-  const handleSearch = (query: string) => {
-    setPreviousTerms((prevTerms) => [...prevTerms, query]);
+  const handleSearch = (query: string = '') => {
+    const newQuery = query.trim().toLocaleLowerCase();
+
+    if (newQuery === '' || previousTerms.includes(newQuery)) return;
+
+    setPreviousTerms([newQuery, ...previousTerms].slice(0, 5));
   };
 
   return (
