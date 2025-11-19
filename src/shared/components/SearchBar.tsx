@@ -1,4 +1,4 @@
-import { KeyboardEvent, useState } from 'react';
+import { KeyboardEvent, useEffect, useState } from 'react';
 interface Props {
   placeholder: string;
   onQuery: (term: string) => void;
@@ -6,6 +6,17 @@ interface Props {
 
 export const SearchBar = ({ placeholder = 'Search', onQuery }: Props) => {
   const [query, setQuery] = useState('');
+
+  // se dispara apenas se montar o componente e quando desmonta
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      onQuery(query);
+    }, 700);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [query, onQuery]);
 
   const handleSearch = () => {
     onQuery(query);
