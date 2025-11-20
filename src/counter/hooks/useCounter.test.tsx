@@ -3,6 +3,10 @@ import { useCounter } from './useCounter';
 import { renderHook, act } from '@testing-library/react';
 
 describe('useCounter', () => {
+  // beforeEach(() => {
+  //   // No specific setup required before each test
+  // });
+
   test('should initialize with default value of 10', () => {
     const { result } = renderHook(() => useCounter());
     expect(result.current.count).toBe(10);
