@@ -17,7 +17,7 @@ export const Counter = () => {
           gap: '1rem',
         }}
       >
-        <h1> Counter: {count}</h1>
+        <h1>Counter: {count}</h1>
         <div style={{ display: 'flex', gap: '1rem' }}>
           <button onClick={handleSubtract}>-</button>
           <button onClick={handleReset}>Reset</button>
