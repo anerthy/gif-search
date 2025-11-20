@@ -1,0 +1,73 @@
+export const gifsMock = [
+  {
+    id: '8ODEvGereDW749TL5H',
+    title: 'Sabrina Carpenter Wave GIF',
+    url: 'https://media3.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8ODEvGereDW749TL5H/giphy.gif',
+    width: 480,
+    height: 480,
+  },
+  {
+    id: '1RSe5veY27rUnuxFDt',
+    title: 'Sabrina Carpenter Snl GIF by Respective',
+    url: 'https://media4.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1RSe5veY27rUnuxFDt/giphy.gif',
+    width: 480,
+    height: 480,
+  },
+  {
+    id: 'Xzv0rurq252qMjp69R',
+    title: 'Tears GIF by Sabrina Carpenter',
+    url: 'https://media4.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Xzv0rurq252qMjp69R/giphy.gif',
+    width: 480,
+    height: 290,
+  },
+  {
+    id: '2wANwfNcESoVtEhFLD',
+    title:
+      'Sabrina Carpenter Singing GIF by The Tonight Show Starring Jimmy Fallon',
+    url: 'https://media4.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2wANwfNcESoVtEhFLD/giphy.gif',
+    width: 500,
+    height: 500,
+  },
+  {
+    id: 'qBgJmsYmxWS1LWXDBk',
+    title: 'Manchild GIF by Sabrina Carpenter',
+    url: 'https://media0.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qBgJmsYmxWS1LWXDBk/giphy.gif',
+    width: 480,
+    height: 290,
+  },
+  {
+    id: '68Kl8hLVcZ3g20i95Y',
+    title: 'Sabrina Carpenter What GIF',
+    url: 'https://media2.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/68Kl8hLVcZ3g20i95Y/giphy.gif',
+    width: 480,
+    height: 480,
+  },
+  {
+    id: 'ZVY1xdXM7ncuvvO0vu',
+    title: 'Sabrina Carpenter No GIF by Chicken Shop Date',
+    url: 'https://media4.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZVY1xdXM7ncuvvO0vu/giphy.gif',
+    width: 480,
+    height: 480,
+  },
+  {
+    id: '12nSEnavqSFdjlY3wX',
+    title: 'Bye Bye Goodbye GIF by Sabrina Carpenter',
+    url: 'https://media1.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/12nSEnavqSFdjlY3wX/giphy.gif',
+    width: 480,
+    height: 480,
+  },
+  {
+    id: 'deO91Osj8VPEoSTECu',
+    title: 'Manchild GIF by Sabrina Carpenter',
+    url: 'https://media2.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/deO91Osj8VPEoSTECu/giphy.gif',
+    width: 480,
+    height: 290,
+  },
+  {
+    id: 'C7lou3nuShJHQwoPgH',
+    title: 'Please Please Please Handcuffs GIF by Sabrina Carpenter',
+    url: 'https://media4.giphy.com/media/v1.Y2lkPWFjNDE1NjBmd2VhbjNuOXM5OGxrY2gzbm9xeGNsc3M3YXl3YjN6c3VtbDk2enJoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/C7lou3nuShJHQwoPgH/giphy.gif',
+    width: 480,
+    height: 270,
+  },
+];
